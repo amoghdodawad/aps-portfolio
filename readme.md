@@ -1,4 +1,4 @@
-# E-Commerce Portfolio
+# OTT Portfolio
 
 <dl>
 <dt>Course Name</dt>
@@ -13,9 +13,9 @@
 
 * * *
 
-> A step towards better e-commerce management
+> A step towards better OTT services
 >
-> PH
+> AD
 
 #### Note:
 This page hosts:
