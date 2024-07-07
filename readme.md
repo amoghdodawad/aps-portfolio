@@ -4,15 +4,17 @@
  - **Name:** Amogh Shrikant Dodawad
  - **University:** KLE Technological University, Hubballi-31
 
+---
+
 # Overview
    - This portfolio explores and analyses the functionalities provided by OTT platforms along with the algorithms used to implement the respective funtionalities along with their time and space efficiency.
 
 # Table of contents
-    1. [Introduction](#introduction)
-    2. [Objectives](#objectives)
-    3. [Functionalities](#functionalities)
-    4. [Efficiency analysis](#efficiency-analysis)
-    5. [References](#references)
+1. [Introduction](#introduction)
+2. [Objectives](#objectives)
+3. [Functionalities](#functionalities)
+4. [Efficiency analysis](#efficiency-analysis)
+5. [References](#references)
 
 # Introduction
     OTT platforms have been some of the most revolutionary services saw the light of the day with the advent of internet.
