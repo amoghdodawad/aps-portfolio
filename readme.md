@@ -93,3 +93,5 @@ OTT platforms have been some of the most revolutionary services saw the light of
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
 # References
+[1]  "Adaptive bitrate streaming", Andy Francis, Bitmovin, 2023. Available: [https://bitmovin.com/adaptive-streaming](https://bitmovin.com/adaptive-streaming)
+
