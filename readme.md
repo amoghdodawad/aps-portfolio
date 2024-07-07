@@ -31,11 +31,19 @@ OTT platforms have been some of the most revolutionary services saw the light of
     
     - ABR refers to the process of supporting multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
     - Few of the popular ABR algorithms/protocols are MPEG-DASH, HLS etc.
+    
+
     ![abr](abr.jpg)
+
+
 2. **Typeahead search**
-    ![type](typeahead.png)
     - Typeahead search refers to the functionality where the user types a part of the query he/she is intending to search and the potential list of completed queries is prompted back to the user to choose from.
     - Trie is a popular data structure to perform operations on dictionary like functionalities. This can be used in conjuction with algorithms like BFS, DFS to find the k-nearest words.
+
+
+    ![type](typeahead.png)
+
+    
 3. **Timestamps / Chapters**
     - Timestamps/chapters are the key-moments in a video where an important subject is being streamed. Allowing users to skip directly to the timestamps results in saving huge amount of bandwidth and time.
     - Algorithms like max-sum sliding-window would help in identifying the key moments in the video. Caching those results using data structures like hash-tables will greatly reduce the latency.
