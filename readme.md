@@ -1,3 +1,8 @@
+![ottplatforms](ottplatforms.webp)
+
+
+
+
 # Algorithmic problem solving portfolio
  - **Course Name:** Algorithmic Problem Solving
  - **Course Code:** 23ECSE309
