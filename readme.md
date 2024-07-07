@@ -19,9 +19,10 @@ This portfolio explores and analyses the functionalities provided by OTT platfor
 # Table of contents
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
-3. [Functionalities](#functionalities)
-4. [Efficiency analysis](#efficiency-analysis)
-5. [References](#references)
+3. [System design](#system-design)
+4. [Functionalities](#functionalities)
+5. [Efficiency analysis](#efficiency-analysis)
+6. [References](#references)
 
 ---
 
@@ -39,6 +40,27 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 - Propose new functionalities to enhance the domain.
 - Explore business use cases, challenges, and benefits.
 - Suggest suitable algorithms and design techniques.
+
+---
+
+# System Design
+- The key users in this system are:
+    1. **Watcher:** The person who is consuming the video streams.
+    2. **Content creators / Uploaders:** The people who are sharing their content.
+    3. **The platform providers:** This refers to the organisation that is providing the OTT services.
+- Architecture of the system:
+    - The system would be microservices architcture as there are many independent service offerings like streaming, uploading, transcoding etc.
+    - As the system is a distributed one, we would need orchestrators and proxies to ensure smoothing functioning of the system.
+    - There would also be a pub-sub mechanism for an effective inter-service communication.
+    - The upload service is responsible for accepting the uploads by the content creators.
+    - The transcoding service picks up the uploaded video and transcodes it into multiple resolutions and formats like MPEG-DASH or HLS.
+    - The streaming service is responsible for streaming the video whenever requested by any user.
+- Process / walk-through:
+    - Initially a content-creator uploads a video to the platform through upload service.
+    - Upon completion of the upload, the upload service notifies the transcoding service to start the transcoding.
+    - Upon receiving this message, the video is transcoded into multiple resolutions in either MPEG-DASH or HLS format etc.
+    - Upon the completion of this phase, the video is now ready to be consumed.
+    - Whenever the user requests for the video, it is delivered to him/her via the streaming service.
 
 ---
 
