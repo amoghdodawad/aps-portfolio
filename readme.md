@@ -28,7 +28,7 @@ OTT platforms have been some of the most revolutionary services saw the light of
 
 # Functionalities
 1. **Adaptive bitrate streaming**
-    - ![Adaptive Bitrate Streaming](abr.jpg)
+    <img src='abr.jpg'>
 
 
     - ABR refers to the process of supporting multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
