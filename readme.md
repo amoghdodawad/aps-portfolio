@@ -28,11 +28,10 @@ OTT platforms have been some of the most revolutionary services saw the light of
 
 # Functionalities
 1. **Adaptive bitrate streaming**
-    <img src='abr.jpg'>
-
-
+    
     - ABR refers to the process of supporting multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
     - Few of the popular ABR algorithms/protocols are MPEG-DASH, HLS etc.
+    ![abr](abr.jpg)
 2. **Typeahead search**
     ![type](typeahead.png)
     - Typeahead search refers to the functionality where the user types a part of the query he/she is intending to search and the potential list of completed queries is prompted back to the user to choose from.
