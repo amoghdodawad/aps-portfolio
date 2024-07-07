@@ -70,6 +70,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - ABR refers to the process of making streaming available in multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
     - **Data structure**: Data structures like [queues](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/queues.cpp) can be used for buffering, etc.
     - **Algorithms**: Few of the popular ABR algorithms/protocols are MPEG-DASH, HLS etc.
+    - Code links have been highlighted in blue.
 
 
     ![abr](abr.jpg)
@@ -79,6 +80,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - Typeahead search refers to the functionality where the user types a part of the query he/she is intending to search and the potential list of completed queries is prompted back to the user to choose from.
     - **Data structure**: [Trie](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/trie.cpp) is a popular data structure to perform operations on dictionary like functionalities.
     - **Algorithms**: Trie can be used in conjuction with algorithms like [BFS](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/bfs.cpp), [DFS](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/dfs.cpp) to find the k-nearest words.
+    - Code links have been highlighted in blue.
 
 
     ![type](typeahead.png)
@@ -88,6 +90,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - Timestamps/chapters are the key-moments in a video where an important subject is being streamed. Allowing users to skip directly to the timestamps results in saving huge amount of bandwidth and time.
     - **Data structure**: Linear data structures like array, [queues](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/queues.cpp) would be used here.
     - **Algorithms**: Algorithms like [max-sum sliding-window](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/slidingWindow.cpp) would help in identifying the key moments in the video. Caching those results using data structures like hash-tables will greatly reduce the latency.
+    - Code links have been highlighted in blue.
 
 
     ![chapters](chapters.png)
@@ -97,17 +100,21 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - This features enables users to look at the most viewed segments in a given video. This is a constantly changing parameter as the watch time of individual user keeps on changing as per their requirements over a range of time.
     - This is more useful to the content creator as they can retrospect on their content and watch-behaviour of their users.
     - **Data structure / Algorithm**: Data structures like [Fenwick trees](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/fenwickTree.cpp), [Segment trees](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/rangeUpdateQuery.cpp) can optimise the process of generating this analytics they are better suited for range updates.
+    - Code links have been highlighted in blue.
 5. **Personalised recommendation system**
     - This feature enables users to get recommendations based on their watch history and the preferences as suggested by the user himself/herself.
     - **Data structure / Algorithm**: Machine learning algorithms/techniques like deep learning, NLP etc. can be used to effectively generate the personalised feed for each user.
+    - Code links have been highlighted in blue.
 6. **Multi-parameter filtering**
     - This feature enables users to filter the content based on multiple parameters like genre, language, year etc.
     - **Data structure**: Data structures like [BST, B-trees](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/btree.cpp) help in effectively filtering the content.
     - **Algorithm**: Algorithms like [Union-find](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/unionFind.cpp) help in identifying the similar filters to ones provided by the user.
+    - Code links have been highlighted in blue.
 7. **Pagination**
     - This feature enables user to view top-k suggestions in their personalised feed at a time.
     - This is highly important for the server and the database as well, as querying and processing a large chunk of data is highly resource intensive.
     - **Data structure / Algorithm**: Data structures like [heaps](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/heapify.cpp) are highly efficient in sorting out of the top-k elements.
+    - Code links have been highlighted in blue.
 
 ---
 
