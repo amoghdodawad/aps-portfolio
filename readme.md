@@ -1,30 +1,30 @@
-# Course information
+# Algorithmic problem solving portfolio
  - **Course Name:** Algorithmic Problem Solving
  - **Course Code:** 23ECSE309
  - **Name:** Amogh Shrikant Dodawad
  - **University:** KLE Technological University, Hubballi-31
 
 # Overview
-    This portfolio explores and analyses the functionalities provided by OTT platforms along with the algorithms used to implement the respective funtionalities along with their time and space efficiency.
+   - This portfolio explores and analyses the functionalities provided by OTT platforms along with the algorithms used to implement the respective funtionalities along with their time and space efficiency.
 
-## Table of contents
+# Table of contents
     1. [Introduction](#introduction)
     2. [Objectives](#objectives)
     3. [Functionalities](#functionalities)
     4. [Efficiency analysis](#efficiency-analysis)
     5. [References](#references)
 
-## Introduction
+# Introduction
     OTT platforms have been some of the most revolutionary services saw the light of the day with the advent of internet.
     The un-matched flexibility provided by the OTT platforms ensured that they became very popular in very less time, hence, the scale, which is good from a business PoV, is a rather difficult task when looked at from a engineering PoV, became a critical thing to handle. Thus making sure that right components are used in the right manner are critical to ensuring the scalabilty in service offerings. One of these components are the algorithms used in designing these services. This portfolio explores how algorithms made OTTs what they are today.
 
-## Objectives
+# Objectives
     - Identify and analyze existing OTT platform functionalities.
     - Propose new functionalities to enhance the domain.
     - Explore business use cases, challenges, and benefits.
     - Suggest suitable algorithms and design techniques.
 
-## Functionalities
+# Functionalities
     - Adaptive bitrate streaming
         -- ABR refers to the process of supporting multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
         -- Few of the popular ABR algorithms/protocols are MPEG-DASH, HLS etc.
@@ -51,7 +51,7 @@
         -- Data structures like heaps are highly efficient in sorting out of the top-k suggestions.
 
 
-## Efficiency analysis
+# Efficiency analysis
 
 | **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
@@ -71,4 +71,4 @@
 | **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
-## References
+# References
