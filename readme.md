@@ -14,12 +14,16 @@
 # Overview
 This portfolio explores and analyses the functionalities provided by OTT platforms along with the algorithms used to implement the respective funtionalities along with their time and space efficiency.
 
+---
+
 # Table of contents
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
 3. [Functionalities](#functionalities)
 4. [Efficiency analysis](#efficiency-analysis)
 5. [References](#references)
+
+---
 
 # Introduction
 OTT platforms have been some of the most revolutionary services that received a huge attention and users with the rise of internet. The un-matched flexibility provided by the OTT platforms ensured that they became very popular in very less time, hence, the scale, which is good from a business PoV, but, is a rather difficult task when looked at from a engineering PoV, became a critical thing to handle. Thus making sure that right components are used in the right manner are critical to ensuring the scalabilty in service offerings. 
@@ -28,11 +32,15 @@ One of the main components to achieve the scale efficiently as mentioned above a
 
 In this portfolio, we take a deeper look at how algorithms play an important role in smooth functioning of an OTT service.
 
+---
+
 # Objectives
 - Identify and analyze existing OTT platform functionalities.
 - Propose new functionalities to enhance the domain.
 - Explore business use cases, challenges, and benefits.
 - Suggest suitable algorithms and design techniques.
+
+---
 
 # Functionalities
 1. **Adaptive bitrate streaming**
@@ -79,6 +87,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - This is highly important for the server and the database as well, as querying and processing a large chunk of data is highly resource intensive.
     - **Data structure / Algorithm**: Data structures like [heaps](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/heapify.cpp) are highly efficient in sorting out of the top-k elements.
 
+---
 
 # Efficiency analysis
 
@@ -99,6 +108,8 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 | **Heap Data Structure**               | Insert/Delete/Extract-Min: O(log n)            | O(n)                                          |
 | **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
+
+---
 
 # References
 [1]  "Adaptive Bitrate Streaming (ABR): What is it & How Does it Work?", Andy Francis, Bitmovin, 2023. Available: [https://bitmovin.com/adaptive-streaming](https://bitmovin.com/adaptive-streaming)
