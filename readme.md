@@ -43,10 +43,15 @@ OTT platforms have been some of the most revolutionary services saw the light of
 
     ![type](typeahead.png)
 
-    
+
 3. **Timestamps / Chapters**
     - Timestamps/chapters are the key-moments in a video where an important subject is being streamed. Allowing users to skip directly to the timestamps results in saving huge amount of bandwidth and time.
     - Algorithms like max-sum sliding-window would help in identifying the key moments in the video. Caching those results using data structures like hash-tables will greatly reduce the latency.
+
+
+    ![chapters](chapters.png)
+
+    
 4. **Most-watched / Most-replayed**
     - This features enables users to look at the most viewed segments in a given video. This is a constantly changing parameter as the watch time of individual user keeps on changing as per their requirements.
     - This is more useful to the content creator as they can retrospect on their content and watch-behaviour of their users.
