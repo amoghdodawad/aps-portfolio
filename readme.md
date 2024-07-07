@@ -36,10 +36,10 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 ---
 
 # Objectives
-- Identify and analyze existing OTT platform functionalities.
-- Propose new functionalities to enhance the domain.
-- Explore business use cases, challenges, and benefits.
+- Explore new algorithms in field of OTT streaming services.
 - Suggest suitable algorithms and design techniques.
+- Suggest improvements, modifications to the existing algorithms.
+- Try and implement video-streaming applications, that includes trancoding etc.
 
 ---
 
@@ -113,22 +113,21 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 
 # Efficiency analysis
 
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
 | **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
-| **Segment Trees**                     | Build: O(n log n), Query/Update: O(log n)      | O(n)                                          |
-| **Red-Black Trees**                   | Insert/Delete/Search: O(log n)                 | O(n)                                          |
-| **Binary Search Tree**                | Insert/Delete/Search: theta(log n), O(n)       | O(n)                                          |
+| **Fenwick Trees**                     | Creation: O(n log n), Update/Query: O(log n)   | O(n)                                          |
 | **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
-| **A* Search Algorithm**               | O(E)                                           | O(E)                                          |
+| **Heap Data Structure**               | Insert/Delete/Extract: O(log n)                | O(n)                                          |
 | **Trie Data Structure**               | Insert/Search: O(n)                            | O(n) each node                                |
 | **B Trees**                           | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **Segment Trees**                     | Creation: O(n log n), Query/Update: O(log n)   | O(n)                                          |
 | **Hash Tables**                       | Insert/Delete/Search: theta(1), O(n)           | O(n)                                          |
 | **BFS and DFS**                       | O(V + E)                                       | O(V)                                          |
-| **Union-Find**                        | Union/Find: O(α(n))                            | O(n)                                          |
-| **Topological Sorting**               | O(V + E)                                       | O(V)                                          |
+| **Topological Sort**                  | O(V + E)                                       | O(V)                                          |
+| **Binary Search Tree**                | Insert/Delete/Search: theta(log n), O(n)       | O(n)                                          |
 | **Kruskal's Algorithm**               | O(E log E)                                     | O(E + V)                                      |
-| **Heap Data Structure**               | Insert/Delete/Extract-Min: O(log n)            | O(n)                                          |
-| **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
+| **Union-Find**                        | Union/Find: O(α(n))                            | O(n)                                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
 ---
