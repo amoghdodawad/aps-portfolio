@@ -153,7 +153,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - Our service should be able to support multiple such technologies like [Dolby atmos](https://www.dolby.com/en-in/technologies/dolby-atmos/), [IAMF](https://aomediacodec.github.io/iamf/).
 13. **X-ray**
     - This feature enables the user to know more about the scene in action, i.e, actors, location, directors, background music etc.
-    - **Data structure / Algorithm**: In memory hashtables or distributed-cum-cached key value stores like Redis is used to implement the following feature.
+    - **Data structure / Algorithm**: In memory hashtables or distributed-cum-cached key value stores like [Redis](https://redis.io/) is used to implement the following feature.
 
 
     ![Xray](xray.png)
@@ -177,6 +177,8 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 | **Binary Search Tree**                | Insert/Delete/Search: theta(log n), O(n)       | O(n)                                          |
 | **Kruskal's Algorithm**               | O(E log E)                                     | O(E + V)                                      |
 | **Union-Find**                        | Union/Find: O(α(n))                            | O(n)                                          |
+| **Seq2Seq**                           | Train/Inference O(N*M)                         | Ind. of algo as model parameters are huge     |
+| **N-gram Language Models**            | Train/Inference O(N)                           | Ind. of algo as model parameters are huge     |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
 ---
