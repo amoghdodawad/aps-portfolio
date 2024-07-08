@@ -44,6 +44,13 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 ---
 
 # System Design
+
+
+
+![Microservices](microservices.jpeg)
+
+
+
 - The key users in this system are:
     1. **Watcher:** The person who is consuming the video streams.
     2. **Content creators / Uploaders:** The people who are sharing their content.
