@@ -20,7 +20,7 @@ This portfolio explores and analyses the functionalities provided by OTT platfor
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
 3. [System design](#system-design)
-4. [Functionalities](#functionalities)
+4. [Functionalities / Business use case](#functionalities--business-use-cases)
 5. [Efficiency analysis](#efficiency-analysis)
 6. [References](#references)
 
@@ -71,7 +71,7 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 
 ---
 
-# Functionalities
+# Functionalities / Business use cases
 1. **Adaptive bitrate streaming**
     
     - ABR refers to the process of making streaming available in multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
@@ -122,6 +122,41 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
     - This is highly important for the server and the database as well, as querying and processing a large chunk of data is highly resource intensive.
     - **Data structure / Algorithm**: Data structures like [heaps](https://github.com/amoghdodawad/aps-portfolio/blob/main/codes/heapify.cpp) are highly efficient in sorting out of the top-k elements.
     - Code links have been highlighted in blue.
+8. **Auto generation of subtitles**
+    - This feature enables automatic generation of the captions for a given scene of the video with help of Machine learning models.
+    - This enables the user to understand the context properly even if the person speaking in the video is having a different accent.
+    - **Data structure / Algorithm**: ML algorithms like [speech-recognition](https://github.com/m1guelpf/auto-subtitle) etc.
+
+
+    ![caption](caption.png)
+
+    
+9. **Auto translation of subtitles**
+    - This feature is highly useful in scenarios where the cost of dubbing is quite high.
+    - This converts the subtitles from the language being spoken in the video the one requested by the user.
+    - **Data structure / Algorithm**: ML algorithms like [text-translation](https://github.com/OValery16/Language-Translation-with-deep-learning-) with the help of models like [Seq2seq](https://github.com/farizrahman4u/seq2seq) etc.
+
+
+    ![translate](translate.png)
+
+
+10. **Internationalisation(i18n)**
+    - Different languages have different scripts, methods etc. i.e, English language is written from left to right, but languages like Arabic and Hebrew are written from right to left.
+    - To work in adherence to the local laws and regulations it is necessary to follow internationalisation.
+    - **Data structure / Algorithm**: Libraries like [react-intl](https://www.npmjs.com/package/react-intl), [react-intl-universal](https://www.npmjs.com/package/react-intl-universal) etc. are used for internationalisation.
+11. **Video/Audio transcoding**
+    - It refers to the process of transformation-encoding(transcoding), where a video is transformed into seperate resolutions and bitrate and encoded into codecs like H264, H265 etc.
+    - This is done to make adaptive bitrate streaming possible and also to reduce the size of the video.
+    - **Data structure / Algorithm**: Libraries like [ffmpeg](https://ffmpeg.org/) are used for transcoding the video.
+12. **Immersive audio systems**
+    - The OTT services will be consumed on multiple devices like TV, phones, PCs etc. They may multiple speakers or something known as an immersive sound setup.
+    - Our service should be able to support multiple such technologies like [Dolby atmos](https://www.dolby.com/en-in/technologies/dolby-atmos/), [IAMF](https://aomediacodec.github.io/iamf/).
+13. **X-ray**
+    - This feature enables the user to know more about the scene in action, i.e, actors, location, directors, background music etc.
+    - **Data structure / Algorithm**: In memory hashtables or distributed-cum-cached key value stores like Redis is used to implement the following feature.
+
+
+    ![Xray](xray.png)
 
 ---
 
@@ -156,3 +191,9 @@ In this portfolio, we take a deeper look at how algorithms play an important rol
 [4]  "Fast forward moving picture experts group", FFmpeg, 2024. Available: [https://ffmpeg.org/](https://ffmpeg.org/)
 
 [5]  "How Streaming Services Use Algorithms", Arts and technology management group, 2021. Available: [https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services)
+
+[6]  "Encoder-Decoder Seq2Seq Models, Clearly Explained!!", Kriz Moses, 2021. Available: [https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b](https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b)
+
+[7]  "Internationalisation", MDN web docs, 2021. Available: [https://developer.mozilla.org/en-US/docs/Glossary/Internationalization](https://developer.mozilla.org/en-US/docs/Glossary/Internationalization)
+
+[8]  "The Effect Of 3D Audio And Other Audio Techniques On Virtual Reality Experience", Willem-Paul Brinkman, Allart R D Hoekstra, Rene Vanegmond , January 2015. Available: [https://www.researchgate.net/publication/291516579_The_Effect_Of_3D_Audio_And_Other_Audio_Techniques_On_Virtual_Reality_Experience](https://www.researchgate.net/publication/291516579_The_Effect_Of_3D_Audio_And_Other_Audio_Techniques_On_Virtual_Reality_Experience)
